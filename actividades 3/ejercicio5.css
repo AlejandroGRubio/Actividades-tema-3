@@ -1,6 +1,6 @@
-dt:not([class=mi_clase]){
+dt:not(.mi_clase){
     background-color: #FFCCCC;
 }
-dd:not([id=mi_id]){
+dd:not(#mi_id){
     background-color: #CCFFCC;
 }
