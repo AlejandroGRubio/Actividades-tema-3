@@ -1,0 +1,61 @@
+div.wrapper {
+    float: right;
+}
+
+div.grid {
+    color: white;
+    background: red;
+    padding: 5px;    
+}
+
+#moveMe {
+    background:blue;
+    position: relative;
+}
+
+
+/*
+ ¿Qué ocurrirá si posicionamos de forma 
+ relativa el elemento con identificador moveMe?
+
+- Al solo añadir el position relative no pasa 
+ nada, ya que no lo estás moviendo.
+
+Mueve dicho elemento abajo y a la izquierda 5px 
+partiendo de su posición inicial.
+    
+#moveMe {
+    background:blue;
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+a)
+
+#moveMe {
+    background:blue;
+    position: relative;
+    top: 10px;
+    right: -10px;
+}
+
+b)
+El elemento se ha movido, pero ha quedado un hueco. 
+¿Por qué sucede esto?
+
+-Porque realmente sigue estando ahí y lo siguen 
+viendo los demás elementos del html, solo que 
+nosotros lo vemos movido.
+
+
+#moveMe {
+    background:blue;
+    position: relative;
+    top: -10px;
+    right: -10px;
+}
+
+
+
+ */
