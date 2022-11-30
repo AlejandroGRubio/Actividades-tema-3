@@ -1,0 +1,75 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#titulo{
+    color: #008a8a;
+}
+
+#subtitulo{
+    color: #0000ff;
+}
+
+strong{
+    color: red;
+}
+
+span.destacado{
+    color: #ffb73f;
+}
+
+a{
+    color:red;
+    text-decoration: underline red;
+    
+}
+
+span.especial{
+    color: #98068c;
+}
+
+em{
+    color: #2322fe;
+}
+
+caption{
+    color: #2322fe;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th.especial{
+    color: gold;
+}
+
+tr td{
+    color: #24a559;
+}
+
+td em{
+    color: #24a559;
+}
+
+td strong{
+    color: gold;
+}
+
+tr th{
+    color: red;
+}
+
+#adicional{
+    color: #8c8c13;
+}
+
+p span#especial{
+    color: #ff12ff;
+}
+
+p a{
+    color: #24a559;
+    text-decoration: underline #24a559;
+}
